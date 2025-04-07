@@ -1,14 +1,21 @@
 class script(object):
-    START_TXT = """<b> 🎭ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {} {},
+    START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
     
-<blockquote>ɪᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ..
-sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</blockquote>
-<blockquote>ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ 🤞🏻</blockquote>
+⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+<blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/biisal'>ʙɪɪsᴀʟ</a>
-</b>"""
+⚓️𝐋𝐞𝐭 𝐢 𝐰𝐢𝐥𝐥 𝐓𝐞𝐚𝐜𝐡 𝐲𝐨𝐮 𝐇𝐨𝐰 𝐭𝐨 𝗛𝘂𝗻𝘁 ⬍𝙈𝙤𝙫𝙞𝙚⬍ & ⬍𝙎𝙚𝙧𝙞𝙚𝙨⬍🏴‍☠️
+
+🏴‍☠️Just send 𝙼𝚘𝚟𝚒𝚎𝚜 & 𝚂𝚎𝚛𝚒𝚎𝚜 Name nd Ready to 𝙳𝚎𝚎𝚙-𝙳𝚒𝚎 𝚒𝚗 𝙿𝚒𝚛𝚊𝚌𝚢💀
+
+━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
+<blockquote>💥🅝︎🅞︎🅣︎🅔︎.❗️ ℙ𝕚𝕣𝕒𝕔𝕪 𝕚𝕤 ℂ𝕣𝕚𝕞𝕖.😳
+
+-  ⎈ 𝕒𝕟𝕕 ℙ𝕚𝕣𝕒𝕥𝕖𝕤⚓️ 𝕒𝕣𝕖 𝔹𝕠𝕣𝕟 𝕥𝕠 𝔽𝕦*𝕜 𝕥𝕙𝕖 𝕃𝔸𝕎'𝕤😎</blockquote></b>"""
     
-    HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
+    HELP_TXT = """<b>ʜᴇʟʟᴏ💀 {}
+     🔆ᴍʏ ғᴇᴀᴛᴜʀᴇs🏴‍☠️.</b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
@@ -16,7 +23,7 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
     FSUB_TXT = """<b>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
 • ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
 • sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
-ᴇx: <code>/fsub -1004646464646</code>
+ᴇx: <code>/fsub -1002197825290</code>
 
 ɴᴏᴡ ɪᴛ's ᴅᴏɴᴇ.ɪ ᴡɪʟʟ ᴄᴏᴍᴘᴇʟ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ, ᴀɴᴅ I ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ғɪʟᴇs ᴜɴᴛɪʟ ʏᴏᴜʀ ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ᴄʜᴀɴɴᴇʟ.
 
@@ -36,22 +43,22 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
     TTS_TXT="""
 <b>• sᴇɴᴅ /tts ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ</b>"""
 
-    ABOUT_TEXT = """<b>🎭 ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {},
+    ABOUT_TEXT = """<b>🎃Ahhoyy! Pirate🏴‍☠️ {},
     
 🤖 ɪ'ᴍ <a href=https://t.me/{}</a> 
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
 😚 ᴍʏ ᴛʀᴜsᴛʏ sᴛᴇᴇᴅ: <a href="https://github.com/Mayuri-Chan/pyrofork">ᴘʏʀᴏғᴏʀᴋ</a>
-🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ʟᴏʀᴅ ᴋʀɪsʜɴᴀ
-🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/biisal">ʙɪɪsᴀʟ</a>
+🙏🏻 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : ⭕Hunter Pirate⚓
+🤡 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/LarvaLinks">Captain Jack Sparrow🗿</a>
 🧑🏻‍💻 ʀᴇᴘᴏ : <a href="https://github.com/biisal/biisal-filter-bot">ʟɪɴᴋ</a>
 </b>"""
-    SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
+    SUPPORT_GRP_MOVIE_TEXT = '''<b>hyy Pirate⚓ {}
 
-ɪ ғᴏᴜɴᴅ {} ʀᴇsᴜʟᴛs 🎁,
-ʙᴜᴛ ɪ ᴄᴀɴ'ᴛ sᴇɴᴅ ʜᴇʀᴇ 🤞🏻
-ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨</b>'''
+💢 {} Results,
+⚓Search Here👇with Correct Spalling🍁
+🔆Join :- @DM_HUB_69</b>'''
 
     
     REF_LINK = '''🔗 <b>Hᴇʀᴇ ɪs ᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ: <code>https://telegram.me/{}?start=biisal-{}</code>
@@ -66,9 +73,9 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ ↓↓</b>'''
     STATUS_TXT = """<b><u>🗃 ᴅᴀᴛᴀʙᴀsᴇ 1 🗃</u>
 
-» ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
-» ᴛᴏᴛᴀʟ ɢʀᴏᴜᴘs - <code>{}</code>
-» ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ - <code>{} / {}</code>
+» -♨-Total Users - <code>{}</code>
+» -❄-Total Groups - <code>{}</code>
+» -🎃-Used Storage - <code>{} / {}</code>
 
 <u>🗳 ᴅᴀᴛᴀʙᴀsᴇ 2 🗳</u></b>
 
@@ -81,12 +88,12 @@ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ 
 » ʀᴀᴍ - <code>{}%</code>
 » ᴄᴘᴜ - <code>{}%</code></b>"""
 
-    NEW_USER_TXT = """<b>#New_User {}
+    NEW_USER_TXT = """<b>🍁#New_User {}
 
-≈ ɪᴅ:- <code>{}</code>
-≈ ɴᴀᴍᴇ:- {}</b>"""
+≈ ⚡ɪᴅ:- <code>{}</code>
+≈ 🃏ɴᴀᴍᴇ:- {}</b>"""
 
-    NEW_GROUP_TXT = """#New_Group {}
+    NEW_GROUP_TXT = """⭕#New_Group {}
 
 Group name - {}
 Id - <code>{}</code>
@@ -98,7 +105,7 @@ User - {}"""
     REQUEST_TXT = """<b>📜 ᴜꜱᴇʀ - {}
 📇 ɪᴅ - <code>{}</code>
 
-🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
+♨ ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
     
     IMDB_TEMPLATE_TXT = """<b>📻 ᴛɪᴛʟᴇ - <a href={url}>{title}</a>
 🎭 ɢᴇɴʀᴇs - {genres}
@@ -107,30 +114,34 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/bisal_files'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
+    FILE_CAPTION = """<b>🎃File Name➥⎈<a  href="https://t.me/+HlMV7jE91ghjOTNl">{file_name}</a> 
 
-    RESTART_TXT = """<b>
+♻️ sɪᴢᴇ : <a href="https://t.me/+wInAv9bWVUlhNjI1">{file_size}</a> 
+
+<blockquote>⎈Join us🍁:-- @LarvaLinks🏝</blockquote></b>"""
+
+    RESTART_TXT = """<b>💥🍁⚡
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
-    ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
+    ALRT_TXT = """💥Stay Away Pirate💀"""
 
-    OLD_ALRT_TXT = """ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇs..sᴇɴᴅ ᴀ ɴᴇᴡ ʀᴇǫᴜᴇsᴛ.."""
+    OLD_ALRT_TXT = """🔆Hah! Old Loot req. new Loot💀"""
 
-    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙄</b>"""
+    NO_RESULT_TXT = """<b>❗ohh! Pirate Dint find like This🙄</b>"""
     
-    I_CUDNT = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
+    I_CUDNT = """♨ 𝗛yy Pirate {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗼𝗿 𝘀𝗲𝗿𝗶𝗲𝘀 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲.. 😐"""
+not available now But Req. to Admin🏝 n check your Spelling♻ """
 
-    I_CUD_NT = """😑 𝗛𝗲𝗹𝗹𝗼 {}
+    I_CUD_NT = """♨ 𝗛yy Pirate {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴."""
+not available now But Req. to Admin🏝 n check your Spelling♻"""
     
-    CUDNT_FND = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
+    CUDNT_FND = """♨ 𝗛yy Pirate {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 𝗱𝗶𝗱 𝘆𝗼𝘂 𝗺𝗲𝗮𝗻 𝗮𝗻𝘆 𝗼𝗻𝗲 𝗼𝗳 𝘁𝗵𝗲𝘀𝗲 ?? 👇"""
+not available now But Req. to Admin🏝 n check your Spelling♻"""
     
     FONT_TXT= """<b>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ, ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ
 
@@ -153,9 +164,9 @@ User - {}"""
 ➥ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan
 ‼️ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs & ɪᴛ's ᴘʀɪᴄᴇs</b>"""
 
-    BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>rayaviseek@ibl</code> ᴜᴘɪ ɪᴅ.
+    BUY_PLAN = """<b>○ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>7340443594@ybl</code> ᴜᴘɪ ɪᴅ.
     
-○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @biisal_bot 
+○ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @BhardwajBhavit 
 
 ○ <u>ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ sᴛᴇᴘ</u> : ᴏʀ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ /bought ᴄᴏᴍᴍᴀɴᴅ.
 
@@ -174,17 +185,17 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
 2:- ᴍᴀᴋᴇ ᴛʜɪs <a href=https://t.me/{}</a> ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
-3:- ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href=https://ez4short.com/ref/movieurl>ez4short</a>.
+3:- ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ .
 
 4:- ᴛʜᴇɴ sᴇᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇
 
-<code>/set_shortner ez4short.com 837b7a64653d1b435f5e20a237840f1251d0c1ce</code>
+<code>/set_shortner ez4short.com 837b7a64653d1b435f5e20a2378401d0c1ce</code>
 
-<code>/set_shortner_2 omnifly.in.net f287e7e9b1a23c34f542f77787d39607cae36a4d</code>
+<code>/set_shortner_2 omnifly.in.net f287e7e9b1a23c34f542f777ae36a4d</code>
 
-<code>/set_shortner_3 shortslink.in 06b24eb6bbb025713cd522fb3f696b6d5de11354</code>
+<code>/set_shortner_3 shortslink.in 06b24eb6bbb025713cd522fb3f6de11354</code>
 
-<code>/set_tutorial https://t.me/bisal_files</code>
+<code>/set_tutorial https://t.me/LarvaLinks</code>
 
 5:- ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
 
@@ -243,13 +254,13 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
 #verified_{}_completed"""
 
-    MOVIES_UPDATE_TXT = """<b>#New_File_Added
+    MOVIES_UPDATE_TXT = """<b>💢Movie Added Pirate.🗿
 
-Title: {title}
-Rating: {rating}
-Genre: {genres}
+⚡Title: {title}
+❄Rating: {rating}
+🍁Genre: {genres}
 
-Description: {description}
+🌻Description: {description}
 
 {file_name}
 </b>"""
