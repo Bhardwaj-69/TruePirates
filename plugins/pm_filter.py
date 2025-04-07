@@ -1325,32 +1325,32 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
     if offset != "":
         if total_results >= MAX_BTN:
             btn.insert(0,[
-                InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
+                InlineKeyboardButton("⚡⬍Language⬍⚡", callback_data=f"languages#{key}#{offset}#{req}"),
                 ])
             btn.insert(1, [
-                InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
-                InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+                InlineKeyboardButton("🎃⬍Quality⬍🎃", callback_data=f"qualities#{key}#{offset}#{req}"),
+                InlineKeyboardButton("❄⬍Year⬍❄", callback_data=f"years#{key}#{offset}#{req}"),
             ])
             btn.insert(2, [
-                InlineKeyboardButton("✨ ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}")
+                InlineKeyboardButton("🍁⬍Season⬍🍁", callback_data=f"seasons#{key}#{offset}#{req}")
             ])
             btn.insert(3,[
-                InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
+                InlineKeyboardButton("💢⬍𝗦𝗘𝗡𝗗 𝗔𝗟𝗟⬍💢", callback_data=batch_link),
                 ])
         else:
             btn.insert(0,[
-                InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
+                InlineKeyboardButton("💢⬍𝗦𝗘𝗡𝗗 𝗔𝗟𝗟⬍💢", callback_data=batch_link),
             ])
             btn.insert(1,[
                 InlineKeyboardButton("No More Pages", user_id=ADMINS[0])
             ])
     else:
         btn.insert(0,[
-            InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
+            InlineKeyboardButton("💢⬍𝗦𝗘𝗡𝗗 𝗔𝗟𝗟⬍💢", callback_data=batch_link),
             ])
 
         btn.insert(1,[
-            InlineKeyboardButton("No More Pages", user_id=ADMINS[0])
+            InlineKeyboardButton("No More Pages⚡", user_id=ADMINS[0])
         ])
                              
     if spoll:
@@ -1409,8 +1409,8 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             **locals()
         )
     else:
-        cap = f"<b>📂 ʜᴇʀᴇ ɪ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ sᴇᴀʀᴄʜ {search}</b>"
-    del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs</b>" if settings["auto_delete"] else ''
+        cap = f"<b>🔆⚓{search}</b>"
+    del_msg = f"\n\n<b>💢❗💢Msg will be Deleted after  <code>{get_readable_time(DELETE_TIME)}</code> Cuz of CopyTight.♨</b>" if settings["auto_delete"] else ''
     CAP[key] = cap
     if imdb and imdb.get('poster'):
         try:
