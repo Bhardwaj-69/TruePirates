@@ -256,11 +256,11 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
     MOVIES_UPDATE_TXT = """<b>💢Movie Added Pirate.🗿
 
-⚡Title: {title}
-❄Rating: {rating}
-🍁Genre: {genres}
+⚡Title⚡: <blockquote>{title}</blockquote>
+🔆Rating🔆: {rating}
+🍁Genre🍁: {genres}
 
-🌻Description: {description}
+🌻Description♻: <tg-spoiler>{description}</tg-spoiler>
 
 {file_name}
 </b>"""
