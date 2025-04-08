@@ -352,8 +352,8 @@ async def start(client:Client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    delCap = "<b>❗Hyy Pirate.🎃 {} Files are Going to Delete in {} cuz of CopyRight♨</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-    afterDelCap = "<b>❗Hyy Pirate.🎃 {} Files Deleted aftr {} cuz of CopyRight♨!</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
+    delCap = "<b>❗Hyy Pirate.🎃 {} Files are Going to Delete in💢❗ {} ❗💢cuz of CopyRight♨</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+    afterDelCap = "<b>❗Hyy Pirate.🎃 {} Files Deleted aftr💢❗ {} ❗💢cuz of CopyRight♨!</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
     replyed = await message.reply(
         delCap,
         reply_to_message_id= toDel.id)
@@ -413,9 +413,9 @@ async def delete_all_index(bot, message):
     if int(files) == 0:
         return await message.reply_text('Not have files to delete')
     btn = [[
-            InlineKeyboardButton(text="ʏᴇs", callback_data="all_files_delete")
+            InlineKeyboardButton(text="Yup", callback_data="all_files_delete")
         ],[
-            InlineKeyboardButton(text="ᴄᴀɴᴄᴇʟ", callback_data="close_data")
+            InlineKeyboardButton(text="Cancel", callback_data="close_data")
         ]]
     if message.from_user.id not in ADMINS:
         await message.reply('Owners Only..💀')
@@ -808,7 +808,7 @@ async def set_shortner_3(c, m):
     try:
         URL = m.command[1]
         API = m.command[2]
-        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.dog/bisal_files').json()
+        resp = requests.get(f'https://{URL}/api?api={API}&url=https://telegram.dog/LarvaLinks').json()
         if resp['status'] == 'success':
             SHORT_LINK = resp['shortenedUrl']
         await save_group_settings(grp_id, 'shortner_three', URL)
