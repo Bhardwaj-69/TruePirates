@@ -131,17 +131,27 @@ User - {}"""
 
     NO_RESULT_TXT = """<b>❗ohh! Pirate Dint find like This🙄</b>"""
     
-    I_CUDNT = """♨ 𝗛yy Pirate {}
+    I_CUDNT = """<b>⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {} 😕
 
-not available now But Req. to Admin🏝 n check your Spelling♻ """
+⎈do Google and give me Adject Name of you Movie🕷
 
-    I_CUD_NT = """♨ 𝗛yy Pirate {}
+♠send Movies Like This.!🔆
+🎃Ex.::-- : Animal or Animal 2023 or Animal Hin.  🕸
 
-not available now But Req. to Admin🏝 n check your Spelling♻"""
+♣send WebSeries Like This.!💢
+🎃Ex.::--: From S01 or From S01E04 or Stranger Things S03E06
+
+⭕🚫 Dont ➠ ':(!,./) 0nly name of Content that you want.🗝
+
+<blockquote>❗💢If you Still not Find it Then click billow👇 🔆⎈𝙍𝙚𝙦𝙪𝙨𝙩 𝙩𝙤 𝘾𝙖𝙥𝙩𝙖𝙞𝙣 𝙎𝙥𝙖𝙧𝙧𝙤𝙬⚓️🏴‍☠️ 
+
+🎃we will Upload it As Soon as Possible🕷</b></blockquote>"""
+
+    I_CUD_NT = """❗⎈Sorry No Loot Found for this in the Whole Piracy Sea🏴‍☠️.🍁 {}.
+⚡Check Spalling or Requst to ⎈Captain Jack Sparrow🕷"""
     
-    CUDNT_FND = """♨ 𝗛yy Pirate {}
-
-not available now But Req. to Admin🏝 n check your Spelling♻"""
+    CUDNT_FND = """⎈I Coulden't Find🙄 anything Like {}
+Did you mean This⎈"""
     
     FONT_TXT= """<b>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ, ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ
 
