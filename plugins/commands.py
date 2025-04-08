@@ -46,7 +46,7 @@ async def tts(client, message):
                                reply_markup =ForceReply(True))
         if not msg.text:
             return await message.reply("Ahhoyy! Pirate🎃 now send Txt 🍁aftr /tts Command")
-        m = await message.reply("<b>💀Cᴏɴᴠᴇʀᴛɪɴɢ...🗿</b>")
+        m = await message.reply("<b>💀ConVerting...🗿</b>")
         toConvert = msg.text.replace("\n", " ").replace("`", "")
         lang = detect_language(toConvert)
         if lang == 'en' or lang == 'hi':
@@ -197,7 +197,7 @@ async def start(client:Client, message):
             logger.error("Make Sure Bot Is Admin In Forcesub Channel")
             return
         btn = [[
-            InlineKeyboardButton("🗿Join channel or Die💀", url=invite_link.invite_link)
+            InlineKeyboardButton("💢Join channel or Die💀", url=invite_link.invite_link)
         ]]
 
         if message.command[1] != "subscribe":
@@ -216,7 +216,7 @@ async def start(client:Client, message):
                 )
         await client.send_message(
             chat_id=message.from_user.id,
-            text="<b> 💢Ahoyy! Pirate⚓\n🗿Join channel or Die💀, Just once for Unlimited Loot🎃.\n\n⭕Be a Pirate.👇</b>",
+            text="<b> 💢Ahoyy! Pirate⚓\n⭕Join channel or Die💀, Just once for Unlimited Loot🎃.\n\n⭕Be a Pirate.👇</b>",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.HTML
         )
@@ -314,8 +314,8 @@ async def start(client:Client, message):
             )
             files_to_delete.append(toDel)
 
-        delCap = "<b>❗Hyy Pirate.🎃 {} Files are Going to Delete in {} cuz of CopyRight♨</b>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-        afterDelCap = "<b>❗Hyy Pirate.🎃 {} Files Deleted aftr {} cuz of CopyRight♨!</b>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+        delCap = "<b>❗Hyy Pirate.🎃\n\n <blockquote>!{} Files! are Going to ⬍DELETE⬍ in 💢{}💢</blockquote>\n\n cuz of CopyRight♨</b>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+        afterDelCap = "<b>❗Hyy Pirate.🎃\n\n !{} Files! Deleted aftr 🤞{}\n\n cuz of CopyRight♨!</b>".format(len(files_to_delete), f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
         replyed = await message.reply(
             delCap
         )
@@ -352,8 +352,8 @@ async def start(client:Client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    delCap = "<b>❗Hyy Pirate.🎃 {} Files are Going to Delete in💢❗ {} ❗💢cuz of CopyRight♨</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
-    afterDelCap = "<b>❗Hyy Pirate.🎃 {} Files Deleted aftr💢❗ {} ❗💢cuz of CopyRight♨!</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
+    delCap = "<b>❗Hyy Pirate.🎃\n\n <blockquote>!{} Files! are Going to ⬍DELETE⬍ in 💢{}💢</blockquote>\n\n cuz of CopyRight♨</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs')
+    afterDelCap = "<b>❗Hyy Pirate.🎃\n\n !{} Files! Deleted aftr 🤞{}\n\n cuz of CopyRight♨!</b>".format(f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs' if FILE_AUTO_DEL_TIMER >= 60 else f'{FILE_AUTO_DEL_TIMER} sᴇᴄᴏɴᴅs') 
     replyed = await message.reply(
         delCap,
         reply_to_message_id= toDel.id)
