@@ -1410,7 +1410,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         )
     else:
         cap = f"<b>⬍🔆⬍➠♻{search}♻</b>"
-    del_msg = f"\n\n<b>💢Msg will be DELETED after  💢❗<code>{get_readable_time(DELETE_TIME)}</code>❗💢 Cuz of CopyTight.♨</b>" if settings["auto_delete"] else ''
+    del_msg = f"\n\n<b>💢Msg will be ⬍DELETED⬍ after  💢❗<code>{get_readable_time(DELETE_TIME)}</code>❗💢 Cuz of CopyTight.♨</b>" if settings["auto_delete"] else ''
     CAP[key] = cap
     if imdb and imdb.get('poster'):
         try:
