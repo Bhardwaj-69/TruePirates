@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b><blockquote>⎈ʜᴇʟʟᴏ {} 🎃,
     
-⎈ Myself  <a href=https://t.me/{}>{}</a></blockquote>
+⎈ Myself  <a href=https://t.me/PiratesHunts_Bot>⎈🏴‍☠️~𝙋𝙞𝙧𝙖𝙩𝙚𝙨 𝙃𝙪𝙣𝙩𝙨~🏴‍☠️⎈</a></blockquote>
 ━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━
 <blockquote>💀Now you are in ⎈  ⬍𝐏𝐢𝐫𝐚𝐭𝐞𝐬 𝐇𝐮𝐧𝐭𝐢𝐧𝐠 𝐙𝐨𝐧𝐞⬍,⚓</blockquote>
 
@@ -121,9 +121,9 @@ User - {}"""
 <blockquote>⎈Join us🍁:-- @LarvaLinks🏝</blockquote></b>"""
 
     RESTART_TXT = """<b>💥🍁⚡
-📅 Dᴀᴛᴇ : <code>{}</code>
-⏰ Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+💢 Dᴀᴛᴇ : <code>{}</code>
+🎃 Tɪᴍᴇ : <code>{}</code>
+♻ Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
 
     ALRT_TXT = """💥Stay Away Pirate💀"""
 
@@ -205,56 +205,56 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 
 💯 ɴᴏᴛᴇ - <i>ᴛʜɪs ʙᴏᴛ ɪs ꜰʀᴇᴇ ᴛᴏ ᴀʟʟ, ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴀɴᴅ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ.</i></b>"""
 
-    VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} {},
+    VERIFICATION_TEXT = """<b>Ahhoyy Pirate!.🎃 {} {},
 
-📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴏɴ ᴠᴇʀɪғʏ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ғᴏʀ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ</u>
+📌 <u>Hah! Pirate.💢 just Tap on VeriFy♻</u>
 
-#ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ:- 1/3 ✓
+#VeriFication⚓:- 1/3 ✓
 
-ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ.</b>"""
+❄you are Just one Step Away From your Loot🧿</b>"""
 
-    VERIFY_COMPLETE_TEXT = """<b>👋 ʜᴇʏ {},
+    VERIFY_COMPLETE_TEXT = """<b>Ahhoyy Pirate!.🎃 {},
 
-ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ 1st ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✓
+🌟1st PaperWork Complete👻 ✓
 
-ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ <code>{}</code></b>"""
+🍁Now you are Free as Sparrow! <code>{}</code></b>"""
 
-    SECOND_VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {} {},
+    SECOND_VERIFICATION_TEXT = """<b>Ahhoyy Pirate!.🎃 {} {},
 
-📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ, ᴛᴀᴘ ᴏɴ ᴛʜᴇ ᴠᴇʀɪꜰʏ ʟɪɴᴋ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ᴛɪʟʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ</u>
+📌 <u>Hah! Pirate.💢 just Tap on VeriFy♻</u>
 
-#ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ:- 2/3
+#VeriFication⚓:- 2/3 ✓
 
-ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴꜱ ᴛʜᴇɴ ʙᴜʏ ʙᴏᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ.</b>"""
+❄you are Just one Step Away From your Loot🧿</b>"""
 
-    SECOND_VERIFY_COMPLETE_TEXT = """<b>👋 ʜᴇʏ {},
+    SECOND_VERIFY_COMPLETE_TEXT = """<b>Ahhoyy Pirate!.🎃 {},
 
-ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ 2nd ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✓
+🌟2st PaperWork Complete👻 ✓
 
-ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ <code>{}</code></b>"""
+🍁Now you are Free as Sparrow! <code>{}</code></b>"""
 
-    THIRDT_VERIFICATION_TEXT = """<b>👋 ʜᴇʏ {},
-    
-📌 <u>ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴛᴀᴘ ᴏɴ ᴛʜᴇ ᴠᴇʀɪꜰʏ ʟɪɴᴋ & ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ꜰᴜʟʟ ᴅᴀʏ.</u>
+    THIRDT_VERIFICATION_TEXT = """<b>Ahhoyy Pirate!.🎃 {} {},
 
-#ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ:- 3/3
+📌 <u>Hah! Pirate.💢 just Tap on VeriFy♻</u>
 
-ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ꜰɪʟᴇs ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ sᴇʀᴠɪᴄᴇ (ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪꜰʏ)</b>"""
+#VeriFication⚓:- 3/3 ✓
 
-    THIRDT_VERIFY_COMPLETE_TEXT= """<b>👋 ʜᴇʏ {},
-    
-ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ 3rd ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ✓
+❄you are Just one Step Away From your Loot🧿</b>"""
 
-ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ꜰᴜʟʟ ᴅᴀʏ </b>"""
+    THIRDT_VERIFY_COMPLETE_TEXT= """<b>Ahhoyy Pirate!.🎃 {},
 
-    VERIFIED_LOG_TEXT = """<b><u>☄ ᴜsᴇʀ ᴠᴇʀɪꜰɪᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ☄</u>
+🌟3st PaperWork Complete👻 ✓
+
+🍁Now you are Free as Sparrow! <code>{}</code></b>"""
+
+    VERIFIED_LOG_TEXT = """<b><u>☄ Link Shorted Succesfully ☄</u>
 
 ⚡️ ɴᴀᴍᴇ:- {} [ <code>{}</code> ] 
-📆 ᴅᴀᴛᴇ:- <code>{} </code></b>
+💢 ᴅᴀᴛᴇ:- <code>{} </code></b>
 
 #verified_{}_completed"""
 
-    MOVIES_UPDATE_TXT = """<b>💢Movie Added Pirate.🗿
+    MOVIES_UPDATE_TXT = """<b>💢Movie Added Pirates.🗿
 
 ⚡Title⚡: <blockquote>{title}</blockquote>
 🔆Rating🔆: {rating}
